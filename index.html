@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-landing Page</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/img-logo-removebg-preview.png" alt="logo" class="logo">
+
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="search...">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-navr__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">4</span>
+                </div>
+
+                <div class="user-nav__icon-box">
+                    <svg class="user-navr__icon">
+                        <use xlink:href="img/sprite.svg#icon-bubbles"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+
+                <div class="user-nav__user">
+                    <img src="img/logo.png" alt="user photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Name</span>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                Navigation
+            </nav>
+            <main class="store-view">
+                main body
+            </main>
+        </div>
+    </div>
+</body>
+</html>
