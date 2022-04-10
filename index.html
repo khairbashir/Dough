@@ -24,33 +24,177 @@
                 </button>
             </form>
 
-            <nav class="user-nav">
-                <div class="user-nav__icon-box">
-                    <svg class="user-navr__icon">
-                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
-                    </svg>
-                    <span class="user-nav__notification">4</span>
-                </div>
-
-                <div class="user-nav__icon-box">
-                    <svg class="user-navr__icon">
-                        <use xlink:href="img/sprite.svg#icon-bubbles"></use>
-                    </svg>
-                    <span class="user-nav__notification">7</span>
-                </div>
-
-                <div class="user-nav__user">
-                    <img src="img/logo.png" alt="user photo" class="user-nav__user-photo">
-                    <span class="user-nav__user-name">Name</span>
-                </div>
-            </nav>
         </header>
+
         <div class="content">
             <nav class="sidebar">
-                Navigation
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>   
+                            </svg>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-shop"></use>   
+                            </svg>
+                            <span>Shop</span>
+                        </a>
+                    </li>
+                    
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-truck"></use>   
+                            </svg>
+                            <span>Delivery</span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-shopping-cart"></use>   
+                            </svg>
+                            <span>Cart</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="legal">
+                    &copy; 2022 by Dough. All rights reserved.
+                </div>
             </nav>
+
             <main class="store-view">
-                main body
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="img/dough5.jpg" alt="store photo" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/dough5.jpg" alt="store photo" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/dough5.jpg" alt="store photo" class="gallery__photo">
+                    </figure>
+                </div>
+
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Dough
+                    </h1>
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>   
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>   
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>   
+                        </svg>
+                    </div>
+
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="img/sprite.svg#icon-location-pin"></use>   
+                        </svg>
+                        <button class="btn-inline">Lagos,Nigeria</button>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                            Aliquid, explicabo eius necessitatibus quidem velit magni
+                            Repellendus soluta tenetur nobis impedit placeat quas odio quo!
+                        </p>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                            Aliquid, explicabo eius necessitatibus.
+                        </p>
+
+                        <ul class="list"> 
+                            <li class="list__item">Coffee</li>
+                            <li class="list__item">Breakfast</li>
+                            <li class="list__item">Snacks</li>
+                            <li class="list__item">Pick up & Delivery</li>
+                            <li class="list__item">Send a gift to a friend</li>
+                            <li class="list__item">Order online</li>
+                            <li class="list__item">Coffee</li>
+                            <li class="list__item">Breakfast</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                khayr and 3 others recommend this.
+                            </p>
+                            <div class="recommend__friends">
+                                <img src="img/Avatar .jpeg" alt="" class="recommend__photo">
+                                <img src="img/Avatar .jpeg" alt="" class="recommend__photo">
+                                <img src="img/Avatar .jpeg" alt="" class="recommend__photo">
+                                <img src="img/Avatar .jpeg" alt="" class="recommend__photo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                Aliquid, explicabo eius necessitatibus.
+                            </blockquote>
+
+                            <figcaption class="review__user">
+                                <img src="img/Avatar .jpeg" alt="" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">
+                                        Danny Ray
+                                    </p>
+                                    <p class="review__user-date">
+                                        March 24th, 2022
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                                Aliquid, explicabo eius necessitatibus.
+                            </blockquote>
+
+                            <figcaption class="review__user">
+                                <img src="img/Avatar .jpeg" alt="" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">
+                                        Mr p
+                                    </p>
+                                    <p class="review__user-date">
+                                        Oct 21th, 2022
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <button class="btn-inline">Show all<span>&rarr;</span></button>
+                    </div>
+                </div>
+
+                <div class="cta">
+                    <h2 class="cta__book-now">Shop for our delicious cookies, donuts and more.</h2>
+
+                    <button class="btn">
+                        <span class="btn__visible">Order now</span> 
+                        <span class="btn__invisible">Almost sold out</span> 
+                    </button>
+                </div>
+
             </main>
         </div>
     </div>
